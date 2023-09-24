@@ -1,0 +1,99 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins&family=Roboto:wght@300&display=swap');
+*{
+margin:0;   
+padding:0;
+box-sizing:border-box;
+}  
+
+body{
+ background:#01237D;
+ font-family: 'poppins', sans-serif;
+}
+
+.container{
+padding:20px;  
+width:350px;
+background:white;
+border-radius:5px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.container  h3 > .question-mark-icon{
+height:18px;   
+width:18px;
+border-radius:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+border:1px solid grey;
+color:grey;
+font-size:12px;
+margin-left:50px;
+margin-top:-23px;
+cursor:pointer;
+}
+
+.container .search-box{
+height:40px; 
+width:310px;
+border-radius:3px;
+display:flex;
+align-items:center;
+margin-top:25px;
+background:whitesmoke;
+border:1px solid grey;
+}
+
+.container .search-box > .fa-tag{
+font-size:20px;  
+margin-left:12px;
+color:grey;
+}
+
+.container .search-box > input{
+all:unset; 
+height:40px;
+width:260px;
+padding-left:5px;
+position:relative;
+left:10px;
+}
+
+.container .tag-box{
+padding:1px;
+width:310px;
+margin-top:8px;
+display:inline-block;
+}
+
+.container .tag-box ul li{
+padding:10px;        
+list-style-type:none;
+border-radius:3px;
+margin-top:10px;
+margin-left:10px;
+position:relative;
+left:-10px;
+padding-right:13px;
+transition:all .2s;
+display:inline-block;
+background:whitesmoke;
+border:1px solid grey;
+background:rgba(128, 128, 128,0.2);
+}
+
+.container .tag-box ul li > .fa-xmark{
+margin-left:10px;  
+color:grey;
+cursor:pointer;
+}
+
+.container .remaining-tags{
+margin-top:20px;
+font-size:13px;
+display:none;
+color:grey;
+}
